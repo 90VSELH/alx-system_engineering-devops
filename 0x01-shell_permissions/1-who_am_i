@@ -1,0 +1,5 @@
+!#/bin/bash
+
+_user = "$(id -u -n)"
+
+echo "Current user name : $_user"
