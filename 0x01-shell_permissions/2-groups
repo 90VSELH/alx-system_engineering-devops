@@ -1,0 +1,11 @@
+#!/bin/bash
+
+groupadd adm
+groupadd cdrom
+groupadd sudo
+groupadd dip
+groupadd plugdev
+groupadd lpadmin
+groupadd sambashare
+
+usermod -a -G adm,cdrom,sudo,dip,plugdev,lpadmin,sambashare root 
