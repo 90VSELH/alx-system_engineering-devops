@@ -8,4 +8,6 @@ groupadd plugdev
 groupadd lpadmin
 groupadd sambashare
 
-usermod -a -G adm,cdrom,sudo,dip,plugdev,lpadmin,sambashare root 
+usermod -a -G adm,cdrom,sudo,dip,plugdev,lpadmin,sambashare root
+
+id -nG root
