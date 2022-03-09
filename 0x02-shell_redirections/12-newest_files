@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls -lt | find ./ -type f | sort -rk8
