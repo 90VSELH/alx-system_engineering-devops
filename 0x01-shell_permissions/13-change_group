@@ -1,1 +1,2 @@
-#!/bin/bashchgrp school hello
+#!/bin/bash
+hgrp school hello
